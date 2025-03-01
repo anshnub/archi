@@ -33,7 +33,7 @@ const TopMenu=()=>{
           <Navbar bg="" expand="lg" variant="dark" fixed="top" style={{backgroundColor:theme,opacity:"0.9"}} className="shadow-lg p-0">
             <Container fluid>
               <Navbar.Brand href="/" className="">
-                <img src="/urabbo-logo.png" className="rounded" alt="" width="200px" height="60px" style={{borderRadius:"15px", margin:"3px", padding:"3px"}} />
+                <img src="/stac.jpg" className="rounded" alt="" width="200px" height="60px" style={{borderRadius:"15px", margin:"3px", padding:"3px"}} />
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="navbarScroll" className="text-warning me-3 flex-wrap border-0" style={{fontSize:"0.8em"}} />
               <Navbar.Collapse id="navbarScroll" className="" >
@@ -58,12 +58,14 @@ const TopMenu=()=>{
                   navbarScroll
                 >
                   <Nav.Link href="/" className="text-warning">Home</Nav.Link> 
-                  <NavDropdown title={ <span className="text-warning">Services</span> }
+                  <NavDropdown>
+                   {/* title={ <span className="text-warning">s</span> }
                                 id="collasible-nav-dropdown"
                                 menuVariant="dark"
                                 show={show}
                                 onMouseEnter={showDropdown} 
-                                onMouseLeave={hideDropdown}>
+                                onMouseLeave={hideDropdown}> */}
+                                
                     <NavDropdown.Item href="/architecture">Architecrure</NavDropdown.Item>
                     <NavDropdown.Item href="/design">Design</NavDropdown.Item>
                     <NavDropdown.Item href="/interior">Interior</NavDropdown.Item>

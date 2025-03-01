@@ -49,7 +49,7 @@ const IndexHome=(props)=>{
           <Navbar bg="" expand="lg" variant="dark" fixed="top" style={{backgroundColor:theme,opacity:"0.9"}} className="shadow-lg p-0">
             <Container fluid>
               <Navbar.Brand href="/" className="">
-                <img src="/urabbo-logo.png" className="rounded" alt="" width="100%" height="60px" style={{borderRadius:"15px"}} />
+                <img src="/.png" className="rounded" alt="" width="100%" height="60px" style={{borderRadius:"15px"}} />
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="navbarScroll" className="text-warning " />
               <Navbar.Collapse id="navbarScroll" className="">
