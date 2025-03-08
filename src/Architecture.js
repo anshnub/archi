@@ -38,7 +38,7 @@ const Architecture=(props)=>{
         <div className="topCarousel">
           <Carousel interval={2000} autoPlay={true} infiniteLoop={true} showThumbs={false} stopOnHover={false}> 
                 <div>
-                    <img src="/images/top.jpg" />
+                    <img src="/images/b.jpg" />
                 </div>
           </Carousel>
         </div>

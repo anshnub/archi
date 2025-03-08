@@ -18,7 +18,7 @@ import styled, { keyframes } from 'styled-components';
 
 const AboutUs=(props)=>{
 
-    const theme='#191919'
+    const theme='#111111'
 
     const [projects,setProjects]=useState([])
 
@@ -54,7 +54,7 @@ const AboutUs=(props)=>{
                 >
                   <Nav.Link href="/" className="text-warning">Home</Nav.Link>
                   <Nav.Link href="/projects" className="text-warning">Projects</Nav.Link>
-                  <Nav.Link href="/aboutus" className="text-warning">About Us</Nav.Link>
+                  {/* <Nav.Link href="/aboutus" className="text-warning">About Us</Nav.Link> */}
                   <Nav.Link href="#contact" className="text-warning">Contact Us</Nav.Link>
 
                 </Nav>
@@ -66,7 +66,7 @@ const AboutUs=(props)=>{
 
       const text=()=>(
           <div className="" style={{fontFamily:"serif"}}>
-              <p className="h5 text-white" >URABBO was founded in 2009 by abcd. A versatile designer has been long in this business of creating interiors. With more than 15 years of work experience, she combines a unique sense of style with an excellent knowledge of design to create thoughtful, interior solutions. She has delved into many disciplines of design, her desire to create space that is perfect & detailed.</p>
+              <p className="h5 text-white" >stac was founded in 2009 by abcd. A versatile designer has been long in this business of creating interiors. With more than 15 years of work experience, she combines a unique sense of style with an excellent knowledge of design to create thoughtful, interior solutions. She has delved into many disciplines of design, her desire to create space that is perfect & detailed.</p>
                <br/>
               <p className="h5 text-white">Recognized to bring a classic sensibility to her designs, she tries to find inspiration for her clients by understanding, clarifying their ambition and vision as well as striving for perfection. Mrs Menka Rajpoot instills her team with confidence to be fearless while designing a space. Her specialties are confident space planning, intricate detailing & bold sense of colors.</p>
               <br/>
@@ -98,7 +98,7 @@ const AboutUs=(props)=>{
                     <div className="col-2"><MdOutlineCall className="h1 text-warning rounded-circle bg-white " /></div>
                     <div className="col-10">
                       <p className="text-white h5">Call Us</p>
-                      <p className="text-warning h5">+919694318893</p>
+                      <p className="text-warning h5">+9199999999</p>
                     </div>
                   </div>
  
@@ -136,8 +136,8 @@ const AboutUs=(props)=>{
            <div className="row mt-5 p-3">
              <div className="col-12 col-md-6 mx-auto text-center">
               
-               <h1 className="text-white text-center mt-5" style={{fontFamily:"'Aref Ruqaa', serif"}}>Nitesh Rajpoot</h1>
-               <p className="text-white">DGM Projects 20years Of Experience In Project Development & Management</p>
+               <h1 className="text-white text-center mt-5" style={{fontFamily:"'Aref Ruqaa', serif"}}>siddhi thaur</h1>
+               <p className="text-white">Projects 2years Of Experience In Project Development & Management</p>
                <p className="text-white">Consectetur a eius ipsa laudantium cumque Ipsa optio eligendi nulla labore quisquam. Illo culpa atque deserunt ducimus rerum Repellendus debitis eius eius dolores minima? Repudiandae quo culpa reprehenderit sequi molestias molestias vel Omnis obcaecati consectetur exercitationem illum debitis rem Veritatis quibusdam atque asperiores consequatur distinctio, pariatur! In et architecto optio</p>
              </div>
              <div className="col-10 col-md-4 mx-auto">
@@ -148,7 +148,7 @@ const AboutUs=(props)=>{
                <img src="/images/d1.jpg" className="rounded mt-5 border border-3 border-warning" width="100%"></img>
              </div>
              <div className="col-12 col-md-6 mx-auto text-center">
-               <h1 className="text-white text-center mt-5" style={{fontFamily:"'Aref Ruqaa', serif"}}>Sadiq Khan</h1>
+               <h1 className="text-white text-center mt-5" style={{fontFamily:"'Aref Ruqaa', serif"}}>Siddhi thakur</h1>
                <p className="text-white">Principal Designer Of Architect & Interior</p>
                <p className="text-white">Consectetur a eius ipsa laudantium cumque Ipsa optio eligendi nulla labore quisquam. Illo culpa atque deserunt ducimus rerum Repellendus debitis eius eius dolores minima? Repudiandae quo culpa reprehenderit sequi molestias molestias vel Omnis obcaecati consectetur exercitationem illum debitis rem Veritatis quibusdam atque asperiores consequatur distinctio, pariatur! In et architecto optio</p>
              </div>
@@ -218,7 +218,7 @@ const AboutUs=(props)=>{
                <img src="images/about-img.jpeg" className="rounded border border-3 border-warning" width="100%" height="100%">
                </img>
                <p className="h4 text-center text-warning mb-0" style={{fontFamily:"'Aref Ruqaa', serif"}}>abcd</p>
-               <p className="h6 text-center text-white mt-0" style={{fontFamily:"'Aref Ruqaa', serif"}}>Director, URABBO</p>
+               <p className="h6 text-center text-white mt-0" style={{fontFamily:"'Aref Ruqaa', serif"}}>Director, </p>
                </div>
                <br/><br/>
                <div className="col-12 col-md-7 mt-5 mt-md-0 overflow-auto " >

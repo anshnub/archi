@@ -52,12 +52,12 @@ const Contact=()=>{
                
                 <div className="row">
                     <div className="col-12 col-md-6 my-auto p-3">
-                        <p className="h1 text-warning text-center " style={{fontFamily:"'Aref Ruqaa', serif"}}>Our Expertise , Your Lifestyle</p>
+                        <p className="h1 text-white text-center " style={{fontFamily:"'Aref Ruqaa', serif"}}>Our Expertise , Your Lifestyle</p>
                         <hr className="text-white d-md-none" />
 
                     </div>
                     <div className="col-12 col-md-6 ">
-                    <p className="h2 text-warning text-center" style={{fontFamily:"'Aref Ruqaa', serif"}}>Contact Us</p>
+                    <p className="h2 text-white text-center" style={{fontFamily:"'Aref Ruqaa', serif"}}>Contact Us</p>
                     {showSuccess()}
                     <form >
               <div className="form-group">

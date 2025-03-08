@@ -12,7 +12,7 @@ import Footer from "./core/footer"
 
 import {MdTravelExplore,MdLocationOn,MdOutlineCall,MdMarkEmailRead} from "react-icons/md"
 
-import{BsImages,BsBuilding,BsWhatsapp} from "react-icons/bs"
+import{BsImages,BsBuilding} from "react-icons/bs"
 
 
 const Project=(props)=>{
@@ -142,21 +142,7 @@ const Project=(props)=>{
       </div>
     )
 
-    const whatsappToast=()=>(
-      <span className="d-flex justify-content-end p-3 ">
-       <div className="col-3 col-md-1 p-4  rounded-circle text-center" style={{backgroundColor:theme,opacity:"0.9"}}>      <a target="_blank" href="https://wa.me/+919860596900"><div className=""><BsWhatsapp className="h1 text-warning text-center " /></div></a></div>
-      </span>
-    )
-    {/*
-       <ToastContainer position="bottom-end">
-        <Toast  bg="success" >
-          <Toast.Header>
-            <BsWhatsapp className="h4 text-success"/>
-          </Toast.Header>
-          <Toast.Body className="text-white"><a target="_blank" href="https://wa.me/+919694318893" className="text-white">Click Here </a> to connect with us on Whatsapp.</Toast.Body>
-        </Toast>
-        </ToastContainer>
-     */}
+    
      const footer=()=>(
       <div  style={{backgroundImage:"url('/images/bg-6.jpg')"}}>
         <div >
@@ -265,7 +251,6 @@ Interior design is a process that provides its customers with a set of aesthetic
            </div>
            <br/>
            <br/>
-           <div className="fixed-bottom">{whatsappToast()}</div>
            <div id="contact"><Footer /></div>
         </div>
 

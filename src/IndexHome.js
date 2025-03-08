@@ -38,11 +38,11 @@ const IndexHome=(props)=>{
 
     const [modalShow, setModalShow] = React.useState(false);
 
-    useEffect(() => {
-      setTimeout(() => {
-        setModalShow(true);
-      }, 3000)
-    }, [])
+    // useEffect(() => {
+    //   setTimeout(() => {
+    //     setModalShow(true);
+    //   }, 3000)
+    // }, [])
 
     const topNav=()=>(
         <div style={{maxWidth:"100vw"}}>
@@ -72,79 +72,80 @@ const IndexHome=(props)=>{
         </div>
       )
 
-      const topCarousel=()=>(
-        <div className="topCarousel">
-          <Carousel interval={2000} autoPlay={true} infiniteLoop={true} showThumbs={false} stopOnHover={false}> 
-                <div>
-                    <img src="/images/top.jpg" />
-                </div>
+      const topCarousel = () => (
+        <div className="topCarousel" style={{ height: '20vh' }}>
+          <Carousel interval={2000} autoPlay={true} infiniteLoop={true} showThumbs={false} stopOnHover={false}>
+            <div>
+              <img src="/images/b.jpg" alt="top pic not loaded" style={{ height: '100%', objectFit: 'cover', width: '100%' }} />
+            </div>
           </Carousel>
         </div>
-      )
+      );
+      
 
      const sec1=()=>(
        <div className="mt-5" style={{backgroundImage:"url('/images/bg-1.jpg')",height:"auto"}}>
          <div style={{backgroundColor:theme,opacity:"0.95",height:"auto"}}>
-           <div className="row mt-5 p-3">
+           <div className="row mt-5 p-0">
              <div className="col-12 col-md-6 mx-auto text-center">
               
-               <h1 className="text-white text-center mt-5" style={{fontFamily:"'Aref Ruqaa', serif"}}>Urabbo interior Designer</h1>
-               <p className="text-white">Every Urabbo concept evolves from a close collaboration between our team and our clients – a process predicated upon our having a firm understanding of both our client’s objectives and their unparalleled position within the hospitality industry. talented team listens, researches, synthesizes and ultimately implements a creative vision that is aesthetically compelling, budget and deadline compliant, and above all, speaks strategically to a project’s unique place and program.</p>
-               <Link to="/projects" ><button className="btn btn-lg btn-warning ">View All Projects</button></Link>
+               {/* <h1 className="text-white text-center mt-5" style={{fontFamily:"'Aref Ruqaa', serif"}}> interior Designer</h1> */}
+               {/* <p className="text-white">Every  concept evolves from a close collaboration between our team and our clients – a process predicated upon our having a firm understanding of both our client’s objectives and their unparalleled position within the hospitality industry. talented team listens, researches, synthesizes and ultimately implements a creative vision that is aesthetically compelling, budget and deadline compliant, and above all, speaks strategically to a project’s unique place and program.</p>
+               <Link to="/projects" ><button className="btn btn-lg btn-warning ">View All Projects</button></Link> */}
              </div>
-             <div className="col-10 col-md-4 mx-auto">
-               <img src="/images/d1a.jpg" className="rounded mt-5 border border-3 border-warning" width="100%"></img>
-             </div>
+             {/* <div className="col-10 col-md-4 mx-auto"> */}
+               {/* <img src="/images/d1a.jpg" className="rounded mt-5 border border-3 border-warning" width="100%"></img> */}
+             {/* </div> */}
 
-             <div className="col-10 col-md-4 mx-auto">
-               <img src="/images/d1b.jpg" className="rounded mt-5 border border-3 border-warning" width="100%"></img>
-             </div>
-             <div className="col-12 col-md-6 mx-auto text-center">
+             {/* <div className="col-10 col-md-4 mx-auto"> */}
+               {/* <img src="/images/d1b.jpg" className="rounded mt-5 border border-3 border-warning" width="100%"></img> */}
+             {/* </div> */}
+             {/* <div className="col-12 col-md-6 mx-auto text-center">
                <h1 className="text-white text-center mt-5" style={{fontFamily:"'Aref Ruqaa', serif"}}>design as distinctive as the people it serves</h1>
                <p className="text-white">Provides discriminating clients with a comprehensive range of design services and skills. By focusing-time and energy on development of state-of-the-art systems, exacting specifications and documentation, In creates innovative design solutions for every project. Complementing award-winning design talent is sound technical expertise, as well as a practical approach to project management. During each phase of the project, from initial concept, through design development, to final installation, Seeks to distinguish their work through rigorous attention to detail high standards and meticulous follow-through. Supported by exceptional project management teams, Ensures that each project is completed on time and within budget.</p>
                <Link to="/projects" ><button className="btn btn-lg btn-warning ">View All Projects</button></Link>
-             </div>
+             </div> */}
 
            </div>
-           <br/>
-           <br/>
+           {/* <br/>
+           <br/> */}
          </div>
        </div>
      )
 
      const process=()=>(
-       <div className="mt-0" style={{backgroundImage:"url('/images/bg-2.jpg')",height:"auto"}}>
+      //  <div className="mt-0" style={{backgroundImage:"url('/images/bg-2.jpg')",height:"auto"}}>
          <div style={{backgroundColor:theme,opacity:"0.9",height:"auto"}}>
-           <h1 className="text-center mt-0 p-5 text-white" style={{fontFamily:"'Aref Ruqaa', serif"}}>Our Process</h1>
-           <div className="row p-5 " >
-             <div className="col-12 col-md-3 text-center p-2">
+           {/* <h1 className="text-center mt-0 p-5 text-white" style={{fontFamily:"'Aref Ruqaa', serif"}}>Our Process</h1> */}
+           <div className="row p-0 " >
+             {/* <div className="col-12 col-md-3 text-center p-2">
                 <div className=" mx-auto bg-warning  rounded-circle row align-items-center" style={{height:"150px",width:"150px"}}><MdTravelExplore className="h1 text-muted  text-center display-1 " style={{fontSize:"5em"}} /></div>
                 <div className="h2 text-white text-center" style={{fontFamily:"'Aref Ruqaa', serif"}}>Idea & Concept</div>
-             </div>
-             <div className="col-12 col-md-3 text-center p-2">
+             </div> */}
+             {/* <div className="col-12 col-md-3 text-center p-2">
                 <div className=" mx-auto bg-warning  rounded-circle row align-items-center" style={{height:"150px",width:"150px"}}><FaBuilding className="h1 text-muted text-center" style={{fontSize:"5em"}} /></div>
                 <div className="h2 text-white text-center" style={{fontFamily:"'Aref Ruqaa', serif"}}>Design & Create</div>
 
-             </div>
-             <div className="col-12 col-md-3 text-center p-2">
+             </div> */}
+             {/* <div className="col-12 col-md-3 text-center p-2">
                 <div className=" mx-auto bg-warning  rounded-circle row align-items-center" style={{height:"150px",width:"150px"}}><FaPhone className="h1 text-muted text-center" style={{fontSize:"5em"}} /></div>
                 <div className="h2 text-white text-center" style={{fontFamily:"'Aref Ruqaa', serif"}}>Meet & Agree</div>
 
-             </div>
-             <div className="col-12 col-md-3 text-center p-2">
+             </div> */}
+             {/* <div className="col-12 col-md-3 text-center p-2">
                 <div className=" mx-auto bg-warning  rounded-circle row align-items-center" style={{height:"150px",width:"150px"}}><FaHandshake className="h1 text-muted text-center" style={{fontSize:"5em"}} /></div>
                 <div className="h2 text-white text-center" style={{fontFamily:"'Aref Ruqaa', serif"}}>Deliver & Install</div>
 
-             </div>
+             </div> */}
            </div>
          </div>
-       </div>
+      //  </div>
      )
 
      const ourProjectsMarquee=()=>(
        <div className="" style={{backgroundImage:"url('/images/bg-3.jpg')",}} >
        <div style={{backgroundColor:theme,opacity:"0.9"}}>
-       <h2 className="text-warning text-center p-5" style={{fontFamily:"'Aref Ruqaa', serif"}}>Our Projects</h2>
+       <h2 className="text-white text-center p-5 mt-md-5" style={{fontFamily:"'Aref Ruqaa', serif"}}>Our Projects</h2>
         <div className="col-12 col-md-9 mx-auto text-decoration-none">
         <Marquee className="col-9 mx-auto" gradient={false} speed={50}>
           {projects.map((p,i)=>(
@@ -154,7 +155,7 @@ const IndexHome=(props)=>{
           ))}
         </Marquee>
         </div>
-        <div className="text-center p-5"><Link to="/projects"><button className="btn btn-warning">View All Projects</button></Link></div>
+        <div className="text-center p-5"><Link to="/projects"><button className="btn btn-warning" style={{backgroundColor: 'white', color: '#212529', borderColor: 'white'}}>View All Projects</button></Link></div>
        </div>
        </div>
      )
@@ -162,27 +163,27 @@ const IndexHome=(props)=>{
      const ourServices=()=>(
        <div style={{backgroundImage:"url('/images/bg-5.jpg')",}} >
          <div style={{backgroundColor:theme, opacity:"0.9"}}>
-           <div className="text-center h2 text-warning" style={{fontFamily:"'Aref Ruqaa', serif"}}><h2>Our Services</h2></div>
+           {/* <div className="text-center h2 text-warning" style={{fontFamily:"'Aref Ruqaa', serif"}}><h2>Our Services</h2></div> */}
            <div className="row p-4">
                <div className="col">
-               <Link to="/Architecture">
+               {/* <Link to="/Architecture">
                  <div className="text-center "><img src="images/architecture.jpg" className="border border-5 border-warning" width="250px" height="250px"></img></div>
                  <div className="text-center h4 text-white p-2" style={{fontFamily:"'Aref Ruqaa', serif", textDecoration: "underline #ffc107"}}>
                  Architecture
-                 </div></Link>
+                 </div></Link> */}
                </div>
                <div className="col">
-               <Link to="/Design">
+               {/* <Link to="/Design">
                  <div className="text-center "><img src="images/design.jpg" className="border border-5 border-warning" width="250px" height="250px"></img></div>
                  <div className="text-center h4 text-white p-2" style={{fontFamily:"'Aref Ruqaa', serif", textDecoration: "underline #ffc107"}}>
                  Design
-                 </div></Link>
+                 </div></Link> */}
                </div>
                <div className="col">
-               <Link to="/Interior">
+               {/* <Link to="/Interior">
                  <div className="text-center "><img src="images/interior.jpg" className="border border-5 border-warning" width="250px" height="250px"></img></div>
                  <div className="text-center h4 text-white p-2" style={{fontFamily:"'Aref Ruqaa', serif", textDecoration: "underline #ffc107"}}>
-                 Interior</div></Link>
+                 Interior</div></Link> */}
                </div>
            </div>
          </div>
@@ -192,19 +193,19 @@ const IndexHome=(props)=>{
      const testimonials=()=>(
        <div style={{backgroundImage:"url('/images/bg-4.jpg')"}}>
           <div style={{backgroundColor:theme,opacity:"0.8"}}>
-              <h2 className="text-center p-3 text-warning" style={{fontFamily:"'Aref Ruqaa', serif"}}>What our Clients Say?</h2>
+              {/* <h2 className="text-center p-3 text-warning" style={{fontFamily:"'Aref Ruqaa', serif"}}>What our Clients Say?</h2> */}
               <div className="row">
               <div className="col-12 col-md-6 my-auto ">
-               <div className="col-9 mx-auto rounded p-2" >
+               {/* <div className="col-9 mx-auto rounded p-2" >
                <div className="card p-3 shadow-lg" style={{backgroundColor:"#000000",opacity:"1"}}>
                   <p className="text-white ">"Wonderful to work with, very professional team and very accommodating to the client!"</p>
                   <p className="text-white h6">-Anil Sharma</p>
                  
                 </div>
                 
-               </div>
+               </div> */}
 
-               <div className="col-9 mx-auto rounded p-2" >
+               {/* <div className="col-9 mx-auto rounded p-2" >
                <div className="card p-3 shadow-lg" style={{backgroundColor:"#000000",opacity:"1"}}>
 
                   <p className="text-white ">"From the very start moment that we talked with the team, the staff were young , cool and innovative. Although we were unsure of the exact direction to go, they listened to us and guided all the way through it was done. What a wonderful experience.."</p>
@@ -212,38 +213,38 @@ const IndexHome=(props)=>{
                  
                 </div>
                 
-               </div>
+               </div> */}
 
-               <div className="col-9 mx-auto rounded p-2" >
+               {/* <div className="col-9 mx-auto rounded p-2" >
                <div className="card p-3 shadow-lg" style={{backgroundColor:"#000000",opacity:"1"}}>
 
-                  <p className="text-white ">"Urabbo is highly recommend and creative team. They run smoothly and with accuracy. It has been one of the best experiences of my life."</p>
+                  <p className="text-white ">" is highly recommend and creative team. They run smoothly and with accuracy. It has been one of the best experiences of my life."</p>
                   <p className="text-white h6">-Purvi Patil</p>
                  
                 </div>
                 
-               </div>
+               </div> */}
 
               </div>
               <div className="col-12 col-md-6 my-auto">
               
-              <div className="col-9 mx-auto rounded p-2" >
+              {/* <div className="col-9 mx-auto rounded p-2" >
                <div className="card p-3 shadow-lg" style={{backgroundColor:"#000000",opacity:"1"}}>
 
-                  <p className="text-white ">"When we first bought our project land, we researched several companies including Interior designers that were exclusive. After critically analysing the URABBO team understood our needs and developed a vision that was beyond anything that we would anticipate. The value of their involvement was realised in savings in big bid process and in solving problems. They are very approachable and accessible. I would encourage everyone to allow Urabbo’s team to take the necessary steps and develop amazing and unique reality. Like they did for us. !"</p>
+                  <p className="text-white ">"When we first bought our project land, we researched several companies including Interior designers that were exclusive. After critically analysing the  team understood our needs and developed a vision that was beyond anything that we would anticipate. The value of their involvement was realised in savings in big bid process and in solving problems. They are very approachable and accessible. I would encourage everyone to allow ’s team to take the necessary steps and develop amazing and unique reality. Like they did for us. !"</p>
                   <p className="text-white h6">-Ajit Singh</p>
                  
                 </div>
                 
-               </div>
+               </div> */}
 
                <div className="col-9 mx-auto rounded p-2" >
-               <div className="card p-3 shadow-lg" style={{backgroundColor:"#000000",opacity:"1"}}>
+               {/* <div className="card p-3 shadow-lg" style={{backgroundColor:"#000000",opacity:"1"}}>
 
                   <p className="text-white ">" They have good design also have detailed package for 3D rendering. They are really helpful. A team of professionals.."</p>
                   <p className="text-white h6">-Ketam Pate</p>
                  
-                </div>
+                </div> */}
                 
                </div>
                   
@@ -267,21 +268,21 @@ const IndexHome=(props)=>{
 
              <div className="p-2 col-12 col-md-6">
              <div className="rounded" style={{backgroundColor:theme,opacity:"0.9",fontFamily:"'Aref Ruqaa', serif"}}>
-               <p className="h3 text-center text-warning p-2" style={{fontFamily:"'Aref Ruqaa', serif"}}>Contact Us</p>
+               <p className="h3 text-center text-white p-2" style={{fontFamily:"'Aref Ruqaa', serif"}}>Contact Us</p>
                <div className="p-3">
                  <div className="row mb-3">
-                   <div className="col-2"><MdOutlineCall className="h1 text-warning rounded-circle bg-white " /></div>
+                   <div className="col-2"><MdOutlineCall className="h1 text-white rounded-circle bg-white " /></div>
                    <div className="col-10">
                      <p className="text-white h5">Call Us</p>
-                     <p className="text-warning h5">+919694318893</p>
+                     <p className="text-white h5">+919694318893</p>
                    </div>
                  </div>
 
                  <div className="row mb-3">
-                   <div className="col-2"><MdMarkEmailRead className="h1 text-warning rounded-circle bg-white " /></div>
+                   <div className="col-2"><MdMarkEmailRead className="h1 text-white rounded-circle bg-white " /></div>
                    <div className="col-10">
                    <p className="text-white h5">Email Us</p>
-                     <p className="text-warning h5"></p>
+                     <p className="text-white h5"></p>
                    </div>
                  </div>
 

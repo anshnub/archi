@@ -13,6 +13,7 @@ import Interior from "./Interior"
 import IndexHome from "./IndexHome"
 import SearchResult from "./SearchResult"
 import Contact from "./Contact"
+import ProjectDetail from './detail';
 
 function App() {
   return (
@@ -22,6 +23,10 @@ function App() {
      <Route path="/architecture" element={ <Architecture/> }></Route>
      <Route path="/design" element={ <Design/> }></Route>
      <Route path="/interior" element={ <Interior/> }></Route>
+     {/* <Route  path="/projects/:projectId" element={<Project/>}></Route> */}
+
+     <Route path="/projects/:projectId" element={<ProjectDetail />} />
+
     {/*<Route  path="/projects/:projectId" element={<Project/>}></Route>*/}
 		{/*<Route  path="/aboutus" element={<AboutUs/>}></Route>*/}
      <Route  path="/projects/search/:searchkey" element={<SearchResult/>}></Route>

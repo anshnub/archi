@@ -23,23 +23,23 @@ const Footer=()=>{
             
             <div className="p-2 col-12 col-md-6">
             <div className="rounded" style={{backgroundColor:theme,opacity:"0.9",fontFamily:"'Aref Ruqaa', serif",height:"100%"}}>
-              <p className="h3 text-center text-warning p-2" style={{fontFamily:"'Aref Ruqaa', serif"}}>Office Address</p>
+              <p className="h3 text-center text-white p-2" style={{fontFamily:"'Aref Ruqaa', serif"}}>Office Address</p>
               <div className="p-3">
                 <div className="row mb-3">
-                  <div className="col-2"><MdLocationOn className="h1 text-warning rounded-circle bg-white " /></div>
+                  <div className="col-2"><MdLocationOn className="h1 text-black rounded-circle bg-white " /></div>
                   <div className="col-10">
                     <p className="text-white h5">Pune Address</p>
-                    <p className="text-warning h5">Lodha belmondo</p>
+                    <p className="text-white h5">Lodha belmondo</p>
                   </div>
                 </div>
 
-                <div className="row mb-3">
+                {/* <div className="row mb-3">
                   <div className="col-2"><MdMarkEmailRead className="h1 text-warning rounded-circle bg-white " /></div>
                   <div className="col-10">
                   <p className="text-white h5">Pune Address</p>
-                    <p className="text-warning h5">peri peri fries</p>
+                    <p className="text-white h5">peri peri fries</p>
                   </div>
-                </div>
+                </div> */}
               
               </div>
             </div>
@@ -48,37 +48,23 @@ const Footer=()=>{
 
             <div className="p-2 col-12 col-md-6">
             <div className="rounded" style={{backgroundColor:theme,opacity:"0.9",fontFamily:"'Aref Ruqaa', serif",height:"100%"}}>
-              <p className="h3 text-center text-warning p-2" style={{fontFamily:"'Aref Ruqaa', serif"}}>Contact Us</p>
+              <p className="h3 text-center text-white p-2" style={{fontFamily:"'Aref Ruqaa', serif"}}>Contact Us</p>
               <div className="p-3">
-                <div className="row mb-3">
-                  <div className="col-2"><MdOutlineCall className="h1 text-warning rounded-circle bg-white " /></div>
-                  <div className="col-10">
-                    <p className="text-white h5">Call Us</p>
-                    <p className="text-warning h5">+91 99999999</p>
-                  </div>
-                </div>
-
-                {/* <div className="row mb-3">
-                  <div className="col-2"><MdMarkEmailRead className="h1 text-warning rounded-circle bg-white " /></div>
-                  <div className="col-10">
-                  <p className="text-white h5">Email Us</p>
-                    <p className="text-warning h5">info@urabbo.com</p>
-                  </div>
-                </div> */}
+                
 
                 <div className="row mb-3">
-                  <div className="col-2"><MdMarkEmailRead className="h1 text-warning rounded-circle bg-white " /></div>
+                  <div className="col-2"><MdMarkEmailRead className="h1 text-black rounded-circle bg-white " /></div>
                   <div className="col-10">
-                    <p className="text-white h5">Sales and Marketting</p>
-                    <p className="text-warning h5">abcd@stac.com</p>
+                    <p className="text-white h5">contact us </p>
+                    <p className="text-white h5">123456789</p>
                   </div>
                 </div>
 
                 <div className="row mb-3">
-                  <div className="col-2"><MdMarkEmailRead className="h1 text-warning rounded-circle bg-white " /></div>
+                  <div className="col-2"><MdMarkEmailRead className="h1 text-black rounded-circle bg-white " /></div>
                   <div className="col-10">
-                    <p className="text-white h5">Career</p>
-                    <p className="text-warning h5">career@urabbo.com</p>
+                    <p className="text-white h5">Email</p>
+                    <p className="text-white h5">Email@stac.com</p>
                   </div>
                 </div>
                 <br/>
@@ -89,8 +75,8 @@ const Footer=()=>{
 
           </div>
         </div>
-        <div className="text-white text-center h3" style={{fontFamily:"'Aref Ruqaa', serif"}}>Mumbai&nbsp;&nbsp;|&nbsp;&nbsp;Pune&nbsp;&nbsp;</div>
-        <div style={{backgroundColor:theme}}><p className="text-center text-warning p-3 h6">Copyright © 2025 stac-billion dollar company</p></div>
+        <div className="text-white text-center h3" style={{fontFamily:"'Aref Ruqaa', serif"}}>Pune&nbsp;&nbsp;</div>
+        <div style={{backgroundColor:theme}}><p className="text-center text-white p-3 h6">Copyright © 2025 stac-billion dollar company</p></div>
       </div>
 
     )
@@ -99,13 +85,13 @@ const Footer=()=>{
         <div  style={{backgroundImage:"url('/images/bg-6.jpg')"}}>
             <div className="p-2 col-12 col-md-6">
             <div className="rounded" style={{backgroundColor:theme,opacity:"0.9",fontFamily:"'Aref Ruqaa', serif"}}>
-              <p className="h3 text-center text-warning p-2" style={{fontFamily:"'Aref Ruqaa', serif"}}>Office Address</p>
+              <p className="h3 text-center text-white p-2" style={{fontFamily:"'Aref Ruqaa', serif"}}>Office Address</p>
               <div className="p-3">
                 <div className="row mb-3">
                   <div className="col-2"><MdLocationOn className="h1 text-warning rounded-circle bg-white " /></div>
                   <div className="col-10">
                     <p className="text-white h5">Pune Address</p>
-                    <p className="text-warning h5">lodha belmondo</p>
+                    <p className="text-white h5">lodha belmondo</p>
                   </div>
                 </div>
 
@@ -113,7 +99,7 @@ const Footer=()=>{
                   <div className="col-2"><MdMarkEmailRead className="h1 text-warning rounded-circle bg-white " /></div>
                   <div className="col-10">
                   <p className="text-white h5">Pune Address</p>
-                    <p className="text-warning h5"> Pune, Maharashtra 411021</p>
+                    <p className="text-white h5"> Pune, Maharashtra 411021</p>
                   </div>
                 </div>
 
@@ -146,7 +132,7 @@ const Footer=()=>{
                   <div className=""><MdMarkEmailRead className="h1 text-warning rounded-circle bg-white " /></div>
                   <div className="">
                     <p className="text-white h5">Sales and Marketting</p>
-                    <p className="text-warning h5">sales@stac.com</p>
+                    <p className="text-white h5">sales@stac.com</p>
                   </div>
                 </div>
 
@@ -154,7 +140,7 @@ const Footer=()=>{
                   <div className=""><MdMarkEmailRead className="h1 text-warning rounded-circle bg-white " /></div>
                   <div className="">
                     <p className="text-white h5">Career</p>
-                    <p className="text-warning h5">career@stac.com</p>
+                    <p className="text-white h5">career@stac.com</p>
                   </div>
                 </div>
 
@@ -176,8 +162,8 @@ const Footer=()=>{
         <div>
            <div className="d-none d-md-block">{laptopFooter()}</div>
            <div className="d-block d-md-none">{mobileFooter()}</div>
-          {/*whatsapp*/}
-          <div class="elfsight-app-6c2b3ebe-7fe5-46aa-a5f4-c954c639aa41"></div>
+          {/* {whatsapp icon app} */}
+          {/* <div class="elfsight-app-6c2b3ebe-7fe5-46aa-a5f4-c954c639aa41"></div> */}
         </div>
     )
 }
